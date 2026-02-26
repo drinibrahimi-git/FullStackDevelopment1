@@ -1,0 +1,31 @@
+.blue{
+    color: blue;
+    text-decoration: underline;
+}
+
+.red{
+    color: red;
+    text-decoration: overline;
+}
+
+#design{
+    font-family: fantasy;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    text-decoration: wavy;
+}
+
+a:hover{
+    color: greenyellow;
+    text-decoration: overline;
+}
+
+a:active{
+    color: purple;
+    text-decoration: line-through;
+}
