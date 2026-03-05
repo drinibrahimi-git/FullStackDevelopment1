@@ -1,0 +1,17 @@
+p{
+  font-family: 'Times New Roman', Times, serif;  
+}
+
+h1{
+    font-family: ;
+}
+
+@font-face{
+    font-family: 'coder';
+    src: url(fonts/SemiCoderT.ttf);
+
+}
+
+h2{
+    font-family: 'coder';
+}
