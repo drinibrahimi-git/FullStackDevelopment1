@@ -1,0 +1,87 @@
+article p{
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+
+article > p{
+    background: red;
+}
+
+article ~ p{
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+
+article + p{
+    background: orange;
+}
+
+/*selector: pseudo-class{
+    property: value;
+}*/
+
+:visited{
+    color: red;
+}
+
+h3:first-child{
+    background: green;
+    color: white;
+    padding: 20px;
+}
+
+
+
+input:in-range{
+    border: 3px solid green;
+}
+
+input:out-of-range{
+    background: red;
+}
+
+input:required{
+    background: grey;
+}
+
+input:focus{
+    background: yellow;
+}
+
+span:first-of-type{
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 2px solid green;
+}
+
+p::first-line{
+    font-size: 40px;
+    color: blue;
+}
+
+h1::before{
+    content:'+ ';
+}
+
+h2::after{
+    content:' -';
+}
+
+::selection{
+    background: black;
+    color: white;
+}
+
+div{
+    opacity:0.7;
+}
