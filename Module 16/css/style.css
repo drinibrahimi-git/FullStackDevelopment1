@@ -1,0 +1,68 @@
+div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:left;
+    width: 100px;
+}
+
+div.gallery:hover{
+    border:1px solid #777;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+a[href="https://shkolladigjitale.com/"]{
+    color: lightcoral;
+}
+
+/*
+
+[data value]{
+     Attribute exists
+}
+
+[data-value="foo"]{
+     Attribute has this exact value
+}
+
+[data-value *="foo"]{
+     Attribute has this value somewhere in it
+}
+
+[data-value ~="foo"]{
+     space seperated list
+}
+
+[data-value ^="foo"]{
+     Attribute value starts with this
+} 
+
+[data-value $="foo"]{
+     Attribute value ends with this
+} 
+
+*/
+
+p[class *= "ds"]{
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+
+div[id ~="ds"]{
+    background: green;
+    color: white;
+    padding: 20px;
+}
+
+img[title ^="blue"]{
+    border: 5px solid blue;
+}
