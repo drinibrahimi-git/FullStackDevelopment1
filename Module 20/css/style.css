@@ -123,3 +123,95 @@ nav ul li.active{
     line-height: 260px;
 }
 
+#section-3{
+    background-color: #3c5499;
+    min-height: 820;
+    color: white;
+}
+
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-row{
+    display: flex;
+}
+
+input[type="text"], input[type="email"]{
+    width: 46%;
+    height: 56px;
+}
+
+input[type="text"], input[type="email"], textarea{
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    background-color: #273a71;
+    border: none;
+    font-size: 18px;
+    margin: 16px;
+    border-radius: 5px;
+    padding-left: 26px;
+}
+
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+
+}
+
+input[type="submit"]{
+    background-color: #30bae7;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.bigbutton{
+    padding: 25px 85px;
+    color: white;
+
+}
+
+footer{
+    background-color: #344b8e;
+}
+
+.footer-links{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul{
+    margin: 0%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+
+}
+
+.footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+
+}
+
+header img{
+    width: 117px;
+    height: 37px;
+}
+
