@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #301939, #120016, #00003f);
+    color: #f1f1f1;
+    text-align: center;
+}
+
+h1{
+    background: #301939;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+}
+nav{
+    background: #301939;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #00ccff;
+}
+
+ul li{
+    list-style-type: none;
+
+}
+
+.Explorer{
+    padding: 60px 20px;
+}
+
+.moving-p{
+    width: 150px;
+    transition: 0.3s;
+    animation: shrinkWorm 5s infinite ease-in-out;
+}
+
+@keyframes shrinkWorm{
+    0%{ transform: scale(1);}
+    50%{ transform: scale(0.4);}
+    100%{ transform: scale(1);}
+}
+
+.p1{animation-delay: 0s;}
+.p2{animation-delay: 0.3s;}
+.p3{animation-delay: 0.6s;}
+.p4{animation-delay: 0.9s;}
+.p5{animation-delay: 1.2s;}
+.p6{animation-delay: 1.5s;}
+.p7{animation-delay: 1.8s;}
+
+.planets{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.p-card{
+    width: 45%;
+    max-width: 300px;
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-card:hover{
+    transform: scale(1.045);
+    background: #301939;
+}
+
+img{
+    padding: 20px;
+    width: 185px;
+    height: 160px;
+}
+
+.p-card img{
+    width: 100%;
+    height: 290px;
+}
+
+.history{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.h-text{
+    flex: 3;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+.h-text{
+    font-size: 24px;
+    background: transparent;
+}
+
+.h-text:hover{
+    background-color: #333;
+}
+
+.h-table{
+    flex: 7;
+    min-width: 250px;
+}
+
+.h-table table{
+    width: 100%;
+    height: 350px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  background: #301939;
+  color: white;
+}
+
+th,td{
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+th{
+    background: #23023b;
+}
+
+tr:hover{
+    color: white;
+    background-color: #00008f;
+}
+
+footer{
+    background: #00003f;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+@media (max-width:700px){
+
+    nav{
+        flex-wrap: wrap;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    .planets{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p-card{
+        width: 60%;
+    }
+
+    iframe{
+        width: 95%;
+    }
+
+    table{
+        width: auto;
+    }
+}
+
+@media (min-width:701px){
+    nav{
+        display: flex;
+    }
+
+
+    .p-card{
+        width: 45%;
+    }
+
+    iframe{
+        width: 95%;
+    }
+
+    table{
+        width: auto;
+    }
+
+}
+
+.facts{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.fact-card{
+    background: #301939;
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+}
+
