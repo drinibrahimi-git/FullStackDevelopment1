@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerGym</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+     <nav class="navbar">
+        <img id="hamburger" src="img/hamburger-menu-filled-icon-in-transparent-background-basic-app-and-web-ui-bold-line-icon-eps10-free-vector.webp" style="width: 60px; height: 60px;">
+        <div id="pages">
+            <a href="#index.html">Home</a>
+            <a href="#about.html">About</a>
+        </div>
+
+        <button class="icon" onclick="openMenu()">
+    </button>
+    </nav>
+
+    <h1>POWER-GYM</h1>
+
+    <div id="slidepage">
+        <div class="slide">
+            <img src="img/Blog-Deadlifting-Male_1800x672_1200x672_acf_cropped.webp" style="width: 60%;">
+        </div>
+        <div class="slide">
+            <img src="img/istockphoto-1793434890-612x612.jpg" style="width: 60%;">
+        </div>
+        <div class="slide">
+            <img src="img/man-dumbbell.webp" style="width: 60%;">
+        </div>
+    </div>
+
+    <a class="prev"><img src="img/leftarrow.png" style="width: 50px;height: 50px;" onclick="plusSlides(-1)"></a>
+    <a class="next"><img src="img/rightarrow.png" style="width: 50px;height: 50px;" onclick="plusSlides(-1)"></a>
+
+    <input id="search" onkeyup="search()" placeholder="Search excercises...">
+    <ul id="list">
+        <li>Bench Press</li>
+        <li>Squat</li>
+        <li>Deadlift</li>
+        <li>Bicep Curl</li>
+        <li>Pull Up</li>
+        <li>Incline Bench Press</li>
+        <li>Tricep Extensions</li>
+    </ul>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
